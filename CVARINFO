@@ -1,0 +1,7 @@
+server int mbf_dog_spot_2 = 1;
+server int mbf_dog_spot_3 = 0;
+server int mbf_dog_spot_4 = 0;
+server int mbf_dog_spot_5 = 0;
+server int mbf_dog_spot_6 = 0;
+server int mbf_dog_spot_7 = 0;
+server int mbf_dog_spot_8 = 0;

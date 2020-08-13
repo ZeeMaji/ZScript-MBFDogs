@@ -1,0 +1,121 @@
+/// Dog Spawn Spot Base
+class MBFHelperDogSpot : Actor
+{
+    // Spawn dog function.
+    void A_SpawnDog (string dogspotcvar)
+    {
+    CVar dogcvarcheck = CVar.FindCVar(dogspotcvar);
+    if(dogcvarcheck)
+        {
+        switch(dogcvarcheck.GetInt())
+            {
+            default:
+            case 0: break;
+            case 1: A_SpawnItemEx("MBFHelperDogFriendly");
+            }
+        }
+    }
+    // Actor Flags.
+    Default
+    {
+    +NOBLOCKMAP
+    +NOSECTOR
+    +NOGRAVITY
+    +THRUACTORS
+    }
+    // Actor States.
+    States
+    {
+    Spawn:
+    TNT1 A 1;
+    TNT1 A 0 A_SpawnDog("mbf_dog_spot_2");
+    Stop;
+    }
+}
+
+/// Dog Spawn Spots
+class MBFHelperDogSpot2 : MBFHelperDogSpot
+{
+    States
+    {
+    Spawn:
+    TNT1 A 1;
+    TNT1 A 0 A_SpawnDog("mbf_dog_spot_2");
+    Stop;
+    }
+}
+
+class MBFHelperDogSpot3 : MBFHelperDogSpot
+{
+    States
+    {
+    Spawn:
+    TNT1 A 1;
+    TNT1 A 0 A_SpawnDog("mbf_dog_spot_3");
+    Stop;
+    }
+}
+
+class MBFHelperDogSpot4 : MBFHelperDogSpot
+{
+    States
+    {
+    Spawn:
+    TNT1 A 1;
+    TNT1 A 0 A_SpawnDog("mbf_dog_spot_4");
+    Stop;
+    }
+}
+
+class MBFHelperDogSpot5 : MBFHelperDogSpot
+{
+    States
+    {
+    Spawn:
+    TNT1 A 1;
+    TNT1 A 0 A_SpawnDog("mbf_dog_spot_5");
+    Stop;
+    }
+}
+
+class MBFHelperDogSpot6 : MBFHelperDogSpot
+{
+    States
+    {
+    Spawn:
+    TNT1 A 1;
+    TNT1 A 0 A_SpawnDog("mbf_dog_spot_6");
+    Stop;
+    }
+}
+
+class MBFHelperDogSpot7 : MBFHelperDogSpot
+{
+    States
+    {
+    Spawn:
+    TNT1 A 1;
+    TNT1 A 0 A_SpawnDog("mbf_dog_spot_7");
+    Stop;
+    }
+}
+
+class MBFHelperDogSpot8 : MBFHelperDogSpot
+{
+    States
+    {
+    Spawn:
+    TNT1 A 1;
+    TNT1 A 0 A_SpawnDog("mbf_dog_spot_8");
+    Stop;
+    }
+}
+
+/// Friendly helper dog.
+class MBFHelperDogFriendly : MBFHelperDog
+{
+    Default
+    {
+    +FRIENDLY;
+    }
+}

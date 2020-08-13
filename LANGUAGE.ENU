@@ -1,0 +1,10 @@
+[enu default]
+
+MBF_DOG_MENU_TITLE = "Helper Dog Settings";
+MBF_DOG_SPOT_2 = "Spawn Dog on Player Spot #2?";
+MBF_DOG_SPOT_3 = "Spawn Dog on Player Spot #3?";
+MBF_DOG_SPOT_4 = "Spawn Dog on Player Spot #4?";
+MBF_DOG_SPOT_5 = "Spawn Dog on Player Spot #5?";
+MBF_DOG_SPOT_6 = "Spawn Dog on Player Spot #6?";
+MBF_DOG_SPOT_7 = "Spawn Dog on Player Spot #7?";
+MBF_DOG_SPOT_8 = "Spawn Dog on Player Spot #8?";

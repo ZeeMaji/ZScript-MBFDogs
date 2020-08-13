@@ -1,0 +1,17 @@
+AddOptionMenu "CoopOptions"
+{
+    StaticText " "
+    Submenu "$MBF_DOG_MENU_TITLE",	"MBFHelperDogSetup"
+}
+
+OptionMenu "MBFHelperDogSetup"
+{
+	Title "$MBF_DOG_MENU_TITLE"
+    Option "$MBF_DOG_SPOT_2", mbf_dog_spot_2, "OnOff"
+    Option "$MBF_DOG_SPOT_3", mbf_dog_spot_3, "OnOff"
+    Option "$MBF_DOG_SPOT_4", mbf_dog_spot_4, "OnOff"
+    Option "$MBF_DOG_SPOT_5", mbf_dog_spot_5, "OnOff"
+    Option "$MBF_DOG_SPOT_6", mbf_dog_spot_6, "OnOff"
+    Option "$MBF_DOG_SPOT_7", mbf_dog_spot_7, "OnOff"
+    Option "$MBF_DOG_SPOT_8", mbf_dog_spot_8, "OnOff"
+}

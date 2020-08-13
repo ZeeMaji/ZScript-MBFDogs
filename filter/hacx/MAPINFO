@@ -1,0 +1,2 @@
+/// Common start nums loader for doom/chex/heretic/hacx
+include COMMON_STARTNUMS

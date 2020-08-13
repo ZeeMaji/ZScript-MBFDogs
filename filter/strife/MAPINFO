@@ -1,0 +1,12 @@
+/// Strife Compatibility
+// Barely functional due to how strife's maps work but they're still here never the less.
+DoomEdNums
+{
+    2 = MBFHelperDogSpot2
+    3 = MBFHelperDogSpot3
+    4 = MBFHelperDogSpot4
+    5 = MBFHelperDogSpot5
+    6 = MBFHelperDogSpot6
+    7 = MBFHelperDogSpot7
+    8 = MBFHelperDogSpot8
+}

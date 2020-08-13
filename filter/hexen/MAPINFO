@@ -1,0 +1,12 @@
+/// Hexen Compatibility
+// Lot's of dogs spawn in most maps, quite hectic.
+DoomEdNums
+{
+    2 = MBFHelperDogSpot2
+    3 = MBFHelperDogSpot3
+    4 = MBFHelperDogSpot4
+    9100 = MBFHelperDogSpot5
+    9101 = MBFHelperDogSpot6
+    9102 = MBFHelperDogSpot7
+    9103 = MBFHelperDogSpot8
+}

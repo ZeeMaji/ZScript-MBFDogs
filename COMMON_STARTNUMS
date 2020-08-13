@@ -1,0 +1,11 @@
+/// DOOM/Chex Quest/Heretic/Hacx Compatibility
+DoomEdNums
+{
+    2 = MBFHelperDogSpot2
+    3 = MBFHelperDogSpot3
+    4 = MBFHelperDogSpot4
+    4001 = MBFHelperDogSpot5
+    4002 = MBFHelperDogSpot6
+    4003 = MBFHelperDogSpot7
+    4004 = MBFHelperDogSpot8
+}
